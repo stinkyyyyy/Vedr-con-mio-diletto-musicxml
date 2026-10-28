@@ -1,0 +1,1386 @@
+<?xml version='1.0' encoding='utf-8'?>
+<score-partwise version="4.0">
+  <work>
+    <work-title>Vedrò con mio diletto – Baritone companion line</work-title>
+  </work>
+  <movement-title>Vedrò con mio diletto</movement-title>
+  <identification>
+    <creator type="composer">Antonio Vivaldi</creator>
+    <creator type="arranger">New baritone line by ChatGPT</creator>
+    <rights>Baritone companion draft; harmony guide is an arrangement scaffold, not a full figured-bass transcription.</rights>
+    <encoding>
+      <software>Generated MusicXML companion draft</software>
+      <encoding-date>2026-10-27</encoding-date>
+    </encoding>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Baritone (companion line)</part-name>
+      <part-abbreviation>Bar.</part-abbreviation>
+      <score-instrument id="P1-I1">
+        <instrument-name>Baritone voice</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1-I1">
+        <midi-channel>1</midi-channel>
+        <midi-program>54</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>1</divisions>
+        <key>
+          <fifths>2</fifths>
+          <mode>minor</mode>
+        </key>
+        <time>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
+      <direction placement="above">
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>62</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="62" />
+      </direction>
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="2">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>E</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="3">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="4">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="5">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="6">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="7">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <rest />
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="8">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="9">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="10">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="11">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="12">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="13">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="14">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>E</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="15">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="16">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+        <accidental>sharp</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="17">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="18">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="19">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>A</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="20">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="21">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="22">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="23">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="24">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="25">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="26">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>A</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="27">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="28">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+    </measure>
+    <measure number="29">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="30">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>E</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="31">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+    </measure>
+    <measure number="32">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+    </measure>
+    <measure number="33">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="34">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>A</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="35">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="36">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="37">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="38">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="39">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>E</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="40">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+        <accidental>sharp</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="41">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="42">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="43">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>E</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="44">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+    </measure>
+    <measure number="45">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="46">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="47">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="48">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>A</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="49">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>D</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="50">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>F</root-step>
+          <root-alter>1</root-alter>
+        </root>
+        <kind>dominant</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>A</step>
+          <alter>1</alter>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="51">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>2</duration>
+        <type>half</type>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <measure number="52">
+      <harmony type="explicit" placement="above">
+        <root>
+          <root-step>B</root-step>
+        </root>
+        <kind>minor</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>3</duration>
+        <type>half</type>
+        <dot />
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>
