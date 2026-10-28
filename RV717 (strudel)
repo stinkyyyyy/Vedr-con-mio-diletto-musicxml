@@ -1,0 +1,61 @@
+// Vedrò con mio diletto — Strudel rehearsal sketch
+// 52 cycles = 52 bars; one cycle is one 3/4 measure.
+// Quarter note = 62 BPM, so setcpm(62/3).
+// The baritone line is the companion draft, not Vivaldi's original vocal line.
+// The arpeggiated continuo is a simplified harmonic guide, not a transcription
+// of the original figured bass or orchestral parts.
+
+setcpm(62/3)
+
+const baritoneBars = [
+  "~", "~", "~", "~",
+  "~", "~", "~@2 f#3", "b2@2 f#3",
+  "a#2 c#3 e3", "d3 c#3 b2", "g2@2 b2", "f#3 a#2 c#3",
+  "b2@2 d3", "e3@2 g2", "f#3 e3 c#3", "a#2@2 c#4",
+  "b2", "d3 b2 g2", "a2@2 c#3", "d3@2 a2",
+  "f#3@2 a2", "a#2 c#3 e3", "b2@2 f#3", "b2 d3 f#3",
+  "g2@2 b2", "a2 c#3 e3", "d3@2 f#3", "c#4@2 a#2",
+  "b2@2 d3", "e3 g2 b2", "f#3@2 a#2", "b2",
+  "g2@2 d3", "a2@2 e3", "f#3@2 a2", "a#2 c#3 e3",
+  "b2@2 f#3", "g2@2 b2", "e3 g2 b2", "a#2@2 c#4",
+  "b2@2 d3", "g2 b2 d3", "e3@2 g2", "f#3@2 a#2",
+  "b2@2 f#3", "d3@2 a2", "g2@2 b2", "a2@2 c#3",
+  "d3@2 f#3", "a#2 c#3 e3", "b2@2 a2", "b2"
+]
+
+const continuoBars = [
+  "b3 f#4 d4", "e3 b3 g3", "f#3 a#3 e4", "b3 f#4 d4",
+  "g3 d4 b3", "f#3 a#3 e4", "b3 f#4 d4", "b3 f#4 d4",
+  "f#3 a#3 e4", "b3 f#4 d4", "g3 d4 b3", "f#3 a#3 e4",
+  "b3 f#4 d4", "e3 b3 g3", "f#3 a#3 e4", "f#3 a#3 e4",
+  "b3 f#4 d4", "g3 d4 b3", "a3 e4 c#4", "d3 a3 f#3",
+  "d3 a3 f#3", "f#3 a#3 e4", "b3 f#4 d4", "b3 f#4 d4",
+  "g3 d4 b3", "a3 e4 c#4", "d3 a3 f#3", "f#3 a#3 e4",
+  "b3 f#4 d4", "e3 b3 g3", "f#3 a#3 e4", "b3 f#4 d4",
+  "g3 d4 b3", "a3 e4 c#4", "d3 a3 f#3", "f#3 a#3 e4",
+  "b3 f#4 d4", "g3 d4 b3", "e3 b3 g3", "f#3 a#3 e4",
+  "b3 f#4 d4", "g3 d4 b3", "e3 b3 g3", "f#3 a#3 e4",
+  "b3 f#4 d4", "d3 a3 f#3", "g3 d4 b3", "a3 e4 c#4",
+  "d3 a3 f#3", "f#3 a#3 e4", "b3 f#4 d4", "b3 f#4 d4"
+]
+
+// Low, vowel-coloured triangle synth as a wordless baritone stand-in.
+$: cat(...baritoneBars.map(bar => note(bar)))
+  .sound("triangle")
+  .vowel("a")
+  .vib(5)
+  .vibmod(0.12)
+  .attack(0.08)
+  .release(0.25)
+  .room(0.32)
+  .gain(0.75)
+
+// Three-note continuo arpeggios, one bar at a time.
+$: cat(...continuoBars.map(bar => note(bar)))
+  .sound("triangle")
+  .attack(0.005)
+  .decay(0.22)
+  .sustain(0)
+  .release(0.12)
+  .room(0.25)
+  .gain(0.2)
